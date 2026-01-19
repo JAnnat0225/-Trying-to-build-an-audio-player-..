@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio player
+    </title>
+    <link rel="icon" type="image" href="logo">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- <audio controls src="Music-1.mp3"></audio> -->
+
+    <div id="song-container">
+        <img id="song-img" src="img1.png" />
+        <div id="Song-name">Title</div>
+        <div id="singer">Singer</div>
+
+        <input id="slide-music" type="range" />
+
+        <div id="music-buttons">
+            <i class="fa-solid fa-shuffle"></i>
+            <i id="back-btn" class="fa-solid fa-backward fa-2x"></i>
+            <i id="playp-btn" class="fa-regular fa-circle-play fa-3x"></i>
+            <i id="next-btn" class="fa-solid fa-forward fa-2x"></i>
+            <i class="fa-solid fa-repeat"></i>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
